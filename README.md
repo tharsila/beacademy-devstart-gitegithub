@@ -5,6 +5,7 @@
   <li><a href="#sobre-o-projeto">Sobre o projeto</a></li>
   <li><a href="#configuracoes-iniciais">Configurações iniciais</a></li>
   <li><a href="#comandos-basicos">Comandos básicos</a></li>
+  <li><a href="#gestao-de-branches">Gestão de branches</a></li>
 
   <li><a href="#licença">Licença</a></li>
  </ul>
@@ -41,6 +42,19 @@ git config --global user.email "email@exemplo.com"
 | `git remote` | Conecta o repositório local à um repositório remoto |
 | `git push` | Envia os commits locais para o branch remoto |
 | `git pull` | Sincroniza o branch remoto com o branch local |
+
+<hr>
+
+<h2 id="gestao-de-branches">:large_blue_diamond: Gestão de branches</h2>
+
+| Comando     | Descrição                           |
+| :---------- | :---------------------------------- |
+| `git branch` |  |
+| `git branch <nome_da_branch>` | |
+| `git checkout -b <nome_da_branch>` |  |
+| `git branch -d <nome_da_branch>` |  |
+| `git merge <nome_da_branch>` |  |
+
 
 <h2 id="licença">:memo:Licença</h2>
 <p> Feito com :blue_heart: por <strong>Tharsila Borges</strong></p>
