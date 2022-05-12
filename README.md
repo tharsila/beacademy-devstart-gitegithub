@@ -6,7 +6,7 @@
   <li><a href="#configuracoes-iniciais">Configurações iniciais</a></li>
   <li><a href="#comandos-basicos">Comandos básicos</a></li>
   <li><a href="#gestao-de-branches">Gestão de branches</a></li>
-
+  <li><a href="#gestao-de-stash">Gestão de stash</a></li>
   <li><a href="#licença">Licença</a></li>
  </ul>
   
@@ -54,6 +54,18 @@ git config --global user.email "email@exemplo.com"
 | `git checkout -b <nome_da_branch>` |  |
 | `git branch -d <nome_da_branch>` |  |
 | `git merge <nome_da_branch>` |  |
+
+<hr>
+
+<h2 id="gestao-de-stash">:large_blue_diamond: Gestão de stash</h2>
+
+| Comando     | Descrição                           |
+| :---------- | :---------------------------------- |
+| `git stash` |  |
+| `git stash --include-untracked` | |
+| `git stash list` |  |
+| `git stash pop` |  |
+| `git stash drop` | Remove um stash específico da lista |
 
 
 <h2 id="licença">:memo:Licença</h2>
