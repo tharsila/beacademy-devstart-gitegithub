@@ -64,7 +64,7 @@ git config --global user.email "email@exemplo.com"
 | `git stash` | Arquiva alterações não commitadas do local de trabalho |
 | `git stash --include-untracked` | Realiza o stashing dos arquivos não rastreados |
 | `git stash list` | Apresenta a lista de stashes existentes |
-| `git stash pop` | Aplica as mudanças de um stash no seu diretório de trabalho e remove o stash da pilha em seguida|
+| `git stash pop` | Aplica as mudanças de um stash no diretório de trabalho e remove o stash da pilha em seguida|
 | `git stash drop` | Remove um stash específico da lista |
 
 
