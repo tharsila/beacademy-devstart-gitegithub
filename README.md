@@ -49,11 +49,11 @@ git config --global user.email "email@exemplo.com"
 
 | Comando     | Descrição                           |
 | :---------- | :---------------------------------- |
-| `git branch` |  |
-| `git branch <nome_da_branch>` | |
-| `git checkout -b <nome_da_branch>` |  |
-| `git branch -d <nome_da_branch>` |  |
-| `git merge <nome_da_branch>` |  |
+| `git branch` | Lista todas as ramificações do repositório |
+| `git branch <nome_da_branch>` | Cria uma nova ramificação especificada|
+| `git checkout -b <nome_da_branch>` | A branch será criada e em seguida o checkout será feito |
+| `git branch -d <nome_da_branch>` | Deleta a ramificação especificada |
+| `git merge <nome_da_branch>` | É usado para mesclar duas branches |
 
 <hr>
 
@@ -61,10 +61,10 @@ git config --global user.email "email@exemplo.com"
 
 | Comando     | Descrição                           |
 | :---------- | :---------------------------------- |
-| `git stash` |  |
-| `git stash --include-untracked` | |
-| `git stash list` |  |
-| `git stash pop` |  |
+| `git stash` | Arquiva alterações não commitadas do local de trabalho |
+| `git stash --include-untracked` | Realiza o stashing dos arquivos não rastreados |
+| `git stash list` | Apresenta a lista de stashes existentes |
+| `git stash pop` | Aplica as mudanças de um stash no seu diretório de trabalho e remove o stash da pilha em seguida|
 | `git stash drop` | Remove um stash específico da lista |
 
 
